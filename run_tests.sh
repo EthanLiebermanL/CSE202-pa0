@@ -44,7 +44,7 @@ if [[ $rc == 0 ]]; then
   for test in "${tests[@]}"; do
     total=$((total + 1))
     echo -e "\nTest $total with args: $test"
-    ./prog1 $test | tee -a tests.out
+    ./prog0 $test | tee -a tests.out
   done
 paste -d '|' tests.out tests.reference | grep -Po '^(.*)\|+\K\1$' > out
 #grep -f tests.out tests.reference > out
