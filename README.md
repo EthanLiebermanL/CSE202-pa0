@@ -1,4 +1,4 @@
-# prog1: Binary Representations and Bitwise Operations
+# prog0: Binary Representations and Bitwise Operations
 ## Programming Assignment  Learning Outcomes:
 - Manipulate different binary representations of unsigned, - signed, and floating-point numbers
 - Use bitwise operations to manipulate binary representations
@@ -25,9 +25,9 @@ An empty main function and prototypes of the functions described above are provi
 
 
 A script file is also provided to test your program (`run_tests.bash`). The bash script performs the following operations:
-- compiles prog1.c into the executable prog1
-- runs prog1 for all the 32 test cases
-- compares prog1 output to the reference output `tests.reference`
+- compiles prog0.c into the executable prog0
+- runs prog0 for all the 32 test cases
+- compares prog0 output to the reference output `tests.reference`
 - displays the final score of your program 
 
 Keep testing your program until you get a score of 80/80 or all the 32 test cases pass.
