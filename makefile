@@ -1,6 +1,6 @@
-prog1: prog1.c
-	gcc -g -Wall -Wextra -Wwrite-strings -oprog1 prog1.c
+prog0: prog0.c
+	gcc -g -Wall -Wextra -Wwrite-strings -oprog0 prog0.c
 
 clean:
-	rm -f prog1
+	rm -f prog0
 	rm -f tests.out
