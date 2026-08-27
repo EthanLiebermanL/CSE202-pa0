@@ -2,7 +2,7 @@
 
 echo -e "\nRunning make clean"
 make -f makefile clean
-echo -e "\nRunning make prog1"
+echo -e "\nRunning make prog0"
 make
 rc=$?
 total=0
